@@ -1,0 +1,21 @@
+PDPowerStudio v0.1.4 完整包
+
+版本号：0.1.4
+构建时间：2026-11-04 18:20:25
+源码版本：0.1.4（pdpower_studio/__init__.py）
+源码位置：C:\Users\zctw\Documents\Trae-CN\temp_20261104_04\pdpower_studio
+
+目录说明：
+  源码\    Python 源码（PySide6 + pyqtgraph + pyserial），已排除 dist/build/.venv/__pycache__/.pytest_cache/*.pyc 等构建与临时产物
+  发布\    已构建的 one-folder 产物
+    PDPowerStudio\PDPowerStudio.exe   GUI 实时监控与输出控制（主程序）
+    pdpower-cli\pdpower-cli.exe       命令行工具（设备探测/只读采样/脚本化操作）
+    pdpower-mcp\pdpower-mcp.exe       MCP 服务（供 MCP 客户端调用设备能力）
+
+运行要求：
+  免装 Python，直接双击 发布\PDPowerStudio\PDPowerStudio.exe 即可运行。
+  GUI 首次打开不会自动连接设备；连接设备请使用界面上的串口选择与连接按钮。
+  如需从源码运行：Python 3.14（或兼容版本）+ requirements.txt 中的依赖。
+
+安全说明：
+  本包内的 exe 与源码对应版本 0.1.4；未包含任何用户日志、串口配置或设备写入记录。

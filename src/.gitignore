@@ -1,0 +1,32 @@
+# 构建产物
+dist/
+dist-onefile/
+build/
+artifacts/
+*.spec.bak
+*.log
+
+# PyInstaller 中间文件与自检报告
+selftest-gui.json
+**/_internal/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# 本地缓存与运行数据（不随仓库分发）
+firmware_cache/
+.pdpower_studio/
+*.lock
+
+# 第三方固件与官方工具（请自行从 WeAct Studio 官方仓库获取）
+*.fpk
+WeActStudio_Upgrade_Tool.py
+Tools/SourceCode.zip
+SourceCode.zip
+*.xlsx
+*.xls
